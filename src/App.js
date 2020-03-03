@@ -10,9 +10,4 @@ class App extends Component {
   }
 }
 
-<<<<<<< HEAD
 export default App;
-
-=======
-export default App;
->>>>>>> funciones
