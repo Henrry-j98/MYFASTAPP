@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import Imag from './../imagenes/imag1.jpg';
 class header extends Component {
     render() {
         return (
             <div className="contarne-fluid"   >
                 <div class="rom">
+=======
+import { BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
+import Home from './../pages/home';
+import Catalogo from '../components/catalogo';
+
+>>>>>>> 14800622be023865df021f067c3587cbd7ad9dad
 
 
 
@@ -29,6 +36,7 @@ class header extends Component {
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Dropdown
         </a>
+<<<<<<< HEAD
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="#">Action</a>
                                         <a class="dropdown-item" href="#">Another action</a>
@@ -55,4 +63,32 @@ class header extends Component {
         }
         
 export default header;
+=======
+                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <Link className="dropdown-item" to="/catalogo">Sirlon</Link>
+                                    <Link className="dropdown-item" to="#">Bingos</Link>
+                                    <Link className="dropdown-item" to="#">Buen taquito</Link>
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                        <form className="form-inline my-2 my-lg-0">
+                            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            <hr></hr>
+            <div>
+                <Switch>
+                    <Route path="/" exact component={Home}/>
+                    <Route path="/catalogo" exact component={Catalogo}/>
+                </Switch>
+            </div>
+            </Router>
+        );
+    }
+}
+>>>>>>> 14800622be023865df021f067c3587cbd7ad9dad
 
