@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import Home from './components/header';
 
-import Header from './components/header';
+
 class App extends Component {
   render() {
     return (
-      <div>
-        <Header/>
+      <div className="App container-fluid">
+        <Home/>
+
       </div>
     );
   }
