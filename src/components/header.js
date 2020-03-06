@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
 import Imag from './../imagenes/imag1.jpg';
-class header extends Component {
-    render() {
-        return (
-            <div className="contarne-fluid"   >
-                <div class="rom">
-=======
 import { BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 import Home from './../pages/home';
 import Catalogo from '../components/catalogo';
+class header extends Component {
+    render() {
+        return (
+            <Router>
+            <div className="contarne-fluid"   >
+                <div class="rom">
 
->>>>>>> 14800622be023865df021f067c3587cbd7ad9dad
+
 
 
 
@@ -36,34 +35,6 @@ import Catalogo from '../components/catalogo';
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Dropdown
         </a>
-<<<<<<< HEAD
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                                </li>
-                            </ul>
-                            <form class="form-inline my-2 my-lg-0">
-                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-<img  src={Imag}glass="imeg-responcive margir"alt="imag"/>
-
-</div>
-                </div>
-                );
-            }
-        }
-        
-export default header;
-=======
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <Link className="dropdown-item" to="/catalogo">Sirlon</Link>
                                     <Link className="dropdown-item" to="#">Bingos</Link>
@@ -86,9 +57,9 @@ export default header;
                     <Route path="/catalogo" exact component={Catalogo}/>
                 </Switch>
             </div>
+           
             </Router>
         );
     }
 }
->>>>>>> 14800622be023865df021f067c3587cbd7ad9dad
 
