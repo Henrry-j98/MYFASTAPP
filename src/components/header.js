@@ -57,7 +57,7 @@ class header extends Component {
                     <Route path="/catalogo" exact component={Catalogo}/>
                 </Switch>
             </div>
-           
+        
             </Router>
         );
     }
