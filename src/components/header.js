@@ -1,21 +1,7 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
-import Home from '../pages/home';
-
-
-
-
-
-class header extends Component {
-    render() {
-        return (
-            <div className="contarne-fluid"   >
-                <div class="rom">
-=======
 import { BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 import Home from './../pages/home';
 import Catalogo from '../components/catalogo';
->>>>>>> b3e1c934bbe7617b0246b157b66e4b4d94b94a4c
 
 
 
@@ -42,38 +28,6 @@ class Header extends Component {
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Catalogo
         </a>
-<<<<<<< HEAD
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                                </li>
-                            </ul>
-                            <form class="form-inline my-2 my-lg-0">
-                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-
-</nav>
-
-
-<Home/>
-
-
-</div>
-                </div>
-                );
-            }
-        }
-        
-export default header;
-=======
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <Link className="dropdown-item" to="/catalogo">Sirlon</Link>
                                     <Link className="dropdown-item" to="#">Bingos</Link>
@@ -100,6 +54,5 @@ export default header;
         );
     }
 }
->>>>>>> b3e1c934bbe7617b0246b157b66e4b4d94b94a4c
 
 export default Header;
