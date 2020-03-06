@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import Imag from './../imagenes/imag1.jpg';
+//import Imag from './../imagenes/imag1.jpg';
 import { BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
-import Home from './../pages/home';
+import Home from '../pages/home';
 import Catalogo from '../components/catalogo';
+
 class header extends Component {
     render() {
         return (
@@ -57,8 +58,8 @@ class header extends Component {
                     <Route path="/catalogo" exact component={Catalogo}/>
                 </Switch>
             </div>
-        
-            </Router>
+        </div>
+ </Router>
         );
     }
 }

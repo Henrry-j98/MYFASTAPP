@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Carruse from './carruse';
-import Tex from './tex';
+//import Tex from './tex';
 import '../imagenes/galeria.css';
 
-class home extends Component {
+class Home extends Component {
     render() {
         return (
             <div>
@@ -49,4 +49,4 @@ class home extends Component {
     }
 }
 
-export default home;
+export default Home;
