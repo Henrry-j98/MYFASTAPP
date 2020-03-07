@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Carruse from './carruse';
-//import Tex from './tex';
 import '../imagenes/galeria.css';
 
 class Home extends Component {

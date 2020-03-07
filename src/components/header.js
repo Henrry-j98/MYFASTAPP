@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-//import Imag from './../imagenes/imag1.jpg';
 import { BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 import Home from '../pages/home';
 import Catalogo from '../components/catalogo';
+
 
 class header extends Component {
     render() {
         return (
             <Router>
+
             <div className="contarne-fluid"   >
                 <div class="rom">
-
-
-
 
 
                     <div class="mx-auto texs-primay"><h1><span class="badge badge=secondary"></span></h1></div>
@@ -57,9 +55,13 @@ class header extends Component {
                     <Route path="/" exact component={Home}/>
                     <Route path="/catalogo" exact component={Catalogo}/>
                 </Switch>
+
             </div>
+           
+
         </div>
- </Router>
+   </Router>    
+ 
         );
     }
 }
