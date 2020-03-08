@@ -1,0 +1,15 @@
+body {
+
+margin: 0;
+padding: 0;
+
+
+        background: url(./imagenes/imag1.jpg) no-repeat center center fixed;
+        background-size: contain;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: contain;
+
+        
+}
+
