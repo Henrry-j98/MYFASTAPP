@@ -14,6 +14,7 @@ class header extends Component {
 
 
 
+
                     <div class="mx-auto texs-primay"><h1><span class="badge badge=secondary"></span></h1></div>
                 </div>
                 <div>
