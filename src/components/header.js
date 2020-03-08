@@ -13,7 +13,11 @@ class header extends Component {
                 <div class="rom">
 
 
-                <div class="mx-auto texs-primay"><h1><span class="badge badge=secondary"></span></h1></div>
+
+
+
+
+                    <div class="mx-auto texs-primay"><h1><span class="badge badge=secondary"></span></h1></div>
                 </div>
                 <div>
                     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
