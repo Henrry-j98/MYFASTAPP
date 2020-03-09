@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 import Home from '../pages/home';
 
+
+
+
+
+
 class header extends Component {
     render() {
         return (
@@ -13,8 +18,9 @@ class header extends Component {
                     <div class="mx-auto texs-primay"><h1><span class="badge badge=secondary"></span></h1></div>
                 </div>
                 <div>
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-                        <a class="navbar-brand" href="#">FASTAPP</a>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-none">
+
+                        <a class="navbar-brand" href="#"><h1>FASTAPP</h1> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -29,17 +35,17 @@ class header extends Component {
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Dropdown
+                                        Menu
         </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Ofertas</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <a class="dropdown-item" href="#">Acerca de..</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Mas..</a>
                                 </li>
                             </ul>
                             <form class="form-inline my-2 my-lg-0">
