@@ -2,18 +2,11 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 import Home from '../pages/home';
 
-
-
 class header extends Component {
     render() {
         return (
-            <Router>
-
             <div className="contarne-fluid"   >
                 <div class="rom">
-
-
-
 
 
 
@@ -29,44 +22,42 @@ class header extends Component {
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
+                                    <a class="nav-link" href="#">Registro</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        
+                                        Dropdown
         </a>
-                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <Link className="dropdown-item" to="/catalogo"></Link>
-                                    <Link className="dropdown-item" to="#"></Link>
-                                    <Link className="dropdown-item" to="#"></Link>
-                                    
-                                </div>
-                            </li>
-                        </ul>
-                        <form className="form-inline my-2 my-lg-0">
-                            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                        </form>
-                    </div>
-                </nav>
-            </div>
-            <hr></hr>
-            <div>
-                <Switch>
-                    <Route path="/" exact component={Home}/>
-                    <Route path="/catalogo" exact component={Catalogo}/>
-                </Switch>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
 
-            </div>
-           
+</nav>
 
-        </div>
-   </Router>    
- 
-        );
-    }
-}
 
+<Home/>
+
+
+</div>
+                </div>
+                );
+            }
+        }
+        
+export default header;
