@@ -15,10 +15,12 @@ class pie extends Component {
                     <h4>>  Henry jesus Guzman Arcos</h4>
                     <h4>>  Abelardo Gomes Gusman  </h4>
 
+                    <img src={Logot} class="rounded float-left" alt="logiin" width="100" height="100" />
+                    <img src={Logo2} class="rounded float-right" alt="logiin" width="400" height="100" />
 
-                    <img src={Logot}  class="img-rounded" alt="logiin" width="80" height="80" />                       
 
-                    <img src={Logo2}  class="img-rounded" alt="logiin" width="80" height="80" />
+
+                   
                 </footer>
 
             </div>
