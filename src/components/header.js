@@ -4,7 +4,7 @@ import Home from '../pages/home';
 import Logo from '../imagenes/l1.png';
 import Acecade from '../pages/acercade';
 import Pie from '../pages/pie';
-
+import Contato from '../pages/contacto';
 
 
 
@@ -37,7 +37,7 @@ class header extends Component {
         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <Link className="dropdown-item" href="#">Ofertas</Link>
-                                            <Link className="dropdown-item" href="#">Contacto</Link>
+                                            <a className="dropdown-item" href="/contacto">Contacto</a>
                                             <div className="dropdown-divider"></div>
                                             <a className="dropdown-item" href="/acercade">Acerca de..</a>
                                         </div>
@@ -60,6 +60,8 @@ class header extends Component {
                     <Switch>
                         <Route path="/" exact component={Home} />
                         <Route path="/acercade" exact component={Acecade} />
+                        <Route path="/contacto" exact component={Contato} />
+
                     </Switch>
 
 
