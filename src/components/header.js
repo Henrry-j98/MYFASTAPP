@@ -16,7 +16,7 @@ class header extends Component {
                     <div>
                         <nav className="navbar navbar-expand-lg navbar-light bg-none">
                             <Link className="navbar-brand" to="/"></Link>
-                            <Link className="navbar-brand" to="/"><img src={Logo} className="image-rounded" alt="..." width="80" height="80" />                       </Link>
+                            <Link className="navbar-brand" to="/"><img src={Logo} className="image-rounded" alt="..." width="100" height="80" />                       </Link>
 
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
@@ -35,8 +35,8 @@ class header extends Component {
                                             Menu
         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <Link className="dropdown-item" href="#">Action</Link>
                                             <Link className="dropdown-item" href="#">Ofertas</Link>
+                                            <Link className="dropdown-item" href="#">Contacto</Link>
                                             <div className="dropdown-divider"></div>
                                             <a className="dropdown-item" href="/acercade">Acerca de..</a>
                                         </div>
