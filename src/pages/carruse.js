@@ -23,19 +23,19 @@ class carruse extends Component {
           </ol>
           <div class="carousel-inner" />
           <div class="carousel-item active">
-            <img src={imag1} class="d-block w-100" alt="..." />
+            <img src={imag1} class="" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src={imag2} class="d-block w-100" alt="..." />
+            <img src={imag2} class="" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src={imag3} class="d-block w-100" alt="..." />
+            <img src={imag3} class="" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src={imag4} class="d-block w-100" alt="..." />
+            <img src={imag4} class="" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src={imag5} class="d-block w-100" alt="..." />
+            <img src={imag5} class="" alt="..." />
           </div>
 
 
