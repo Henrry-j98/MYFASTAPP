@@ -12,8 +12,8 @@ class pie extends Component {
                     <h2>Docente: Dany Cambrano Álvaro</h2>
                     <h2>Creadores de la pag:</h2>
                     <h4>>  Álavro josé peréz velázquez.</h4>
-                    <h4>>  Henry jesus Gusman Gernandes</h4>
-                    <h4>>  Abelardo Gusman </h4>
+                    <h4>>  Henry jesus Guzman Arcos</h4>
+                    <h4>>  Abelardo Gomes Gusman  </h4>
 
 
                     <img src={Logot}  class="img-rounded" alt="logiin" width="80" height="80" />                       
