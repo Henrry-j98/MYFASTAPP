@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Carruse from './carruse';
 import '../imagenes/galeria.css';
-
+import Logo from './../imagenes/c1.jpg';
 
 
 class Home extends Component {
@@ -16,16 +16,16 @@ class Home extends Component {
                    
                     <div className="col-xl-3">
                         <div class="card">
-                            <img src="..." class="card-img-top" alt="..." />
+                            <img src={Logo} class="card-img-top" alt="..." />
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">infomacion: henry putoooooooooooooooooo</p>
+                                <h5 class="card-title">burger king</h5>
+                                <p class="card-text">informacion Benta de comida rapida..... </p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3">
-                        <div class="card" >
+          <div class="card" >
                             <img src="..." class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
