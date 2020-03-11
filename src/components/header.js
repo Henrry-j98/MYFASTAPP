@@ -5,6 +5,8 @@ import Logo from '../imagenes/l1.png';
 import Acecade from '../pages/acercade';
 import Pie from '../pages/pie';
 import Contato from '../pages/contacto';
+import Formulario from '../pages/registro';
+import Registro from '../pages/registro';
 
 
 
@@ -29,7 +31,7 @@ class header extends Component {
                                         <Link className="nav-link" to="/">Inicio <span class="sr-only">(current)</span></Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Registro</a>
+                                        <Link className="nav-link" to="/registro">Registro</Link>
                                     </li>
                                     <li className="nav-item dropdown">
                                         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -61,6 +63,7 @@ class header extends Component {
                         <Route path="/" exact component={Home} />
                         <Route path="/acercade" exact component={Acecade} />
                         <Route path="/contacto" exact component={Contato} />
+                        <Route path="/registro" exact component={Registro} />
 
                     </Switch>
 
