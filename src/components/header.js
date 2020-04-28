@@ -3,10 +3,11 @@ import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import Home from '../pages/home';
 import Logo from '../imagenes/l1.png';
 import Acecade from '../pages/acercade';
-import Pie from '../pages/pie';
+import Pie from '../pages/prueva';
 import Contato from '../pages/contacto';
-import Formulario from '../pages/registro';
 import Registro from '../pages/registro';
+
+
 
 
 
@@ -14,9 +15,10 @@ class header extends Component {
     render() {
         return (
             <Router>
+
                 <div className="contarne-fluid"   >
 
-                    <div>
+                    <div >
                         <nav className="navbar navbar-expand-lg navbar-light bg-none">
                             <Link className="navbar-brand" to="/"></Link>
                             <Link className="navbar-brand" to="/"><img src={Logo} className="image-rounded" alt="..." width="100" height="80" />                       </Link>
@@ -58,23 +60,33 @@ class header extends Component {
 
                     </div>
                 </div>
+                
                 <div>
                     <Switch>
                         <Route path="/" exact component={Home} />
                         <Route path="/acercade" exact component={Acecade} />
                         <Route path="/contacto" exact component={Contato} />
                         <Route path="/registro" exact component={Registro} />
-
+                         
                     </Switch>
 
 
                 </div>
+
+
+                   
                 <Pie/>
+               
+                    
+
+                
             </Router>
+            
         );
     }
 
 
-}
+    }
+
 
 export default header;

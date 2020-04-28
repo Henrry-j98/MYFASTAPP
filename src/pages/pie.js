@@ -4,7 +4,7 @@ import Logo2 from '../imagenes/LOGO2.png';
 class pie extends Component {
     render() {
         return (
-            <div>
+            <div >
                 <footer class="container-fluid text-center">
                     <h1> INSTITUTO TECNOLOGICO SUPERIOR DE LOS RIOS </h1>
                     <h2>FATSAPP </h2>
@@ -19,8 +19,12 @@ class pie extends Component {
                     <img src={Logo2} class="rounded float-right" alt="logiin" width="400" height="100" />
 
 
+                    
+           
+            
+        
 
-                   
+
                 </footer>
 
             </div>
