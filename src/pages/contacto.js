@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './../estilos/contactos.css';
-
-
 class contacto extends Component {
+
     render() {
         return (
 <div className="row contacto">
@@ -38,7 +37,6 @@ class contacto extends Component {
                         </div>
                     </div>
                 </body>
-
 
 
 
