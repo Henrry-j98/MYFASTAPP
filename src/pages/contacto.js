@@ -15,7 +15,7 @@ class contacto extends Component {
                                     <p1>Alvaro Jose Perez Velazuqez
                                         Numero de cell:934-260-09-65  
                                        correo:alvaro_jose0408@hotmail.com
-                                      oupacio: Ing. en sistema computaciona, diseñador y creador de la pag wed. 
+                                      ocupacion: Ing. en sistema computaciona, diseñador y creador de la pag wed. 
                                         </p1>
                                     </div>
                             </div>
@@ -38,7 +38,6 @@ class contacto extends Component {
                         </div>
                     </div>
                 </body>
-
 
 
 

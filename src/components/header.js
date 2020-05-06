@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import Home from '../pages/home';
 import Logo from '../imagenes/l1.png';
 import Acecade from '../pages/acercade';
-import Pie from '../pages/prueva';
+import Pie from '../pages/pie';
 import Contato from '../pages/contacto';
 import Registro from '../pages/registro';
 
@@ -51,8 +51,21 @@ class header extends Component {
                                     </li>
                                 </ul>
                                 <form className="form-inline my-2 my-lg-0">
-                                    <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                    <input className="form-control mr-sm-2" type="Search" placeholder="Buscar" aria-label="Search" />
+
+
+
+
+
+
+                                    
+
+
+
+
+
+
+                                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">buscar</button>
                                 </form>
                             </div>
 
@@ -60,33 +73,33 @@ class header extends Component {
 
                     </div>
                 </div>
-                
+
                 <div>
                     <Switch>
                         <Route path="/" exact component={Home} />
                         <Route path="/acercade" exact component={Acecade} />
                         <Route path="/contacto" exact component={Contato} />
                         <Route path="/registro" exact component={Registro} />
-                         
+
                     </Switch>
 
 
                 </div>
 
 
-                   
-                <Pie/>
-               
-                    
 
-                
+                <Pie />
+
+
+
+
             </Router>
-            
+
         );
     }
 
 
-    }
+}
 
 
 export default header;
