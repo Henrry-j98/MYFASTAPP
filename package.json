@@ -7,24 +7,37 @@
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
     "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
     "bootstrap": "^4.4.1",
+<<<<<<< HEAD
+=======
+    "cors": "^2.8.5",
+>>>>>>> pruevas
     "espress": "0.0.0",
     "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "express-resource": "^1.0.0",
     "jquery": "^3.4.1",
     "materialize": "^1.0.0",
+    "mongoose": "^5.9.12",
+    "morgan": "^1.10.0",
     "popper.js": "^1.16.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
+    "seve": "^0.9.0",
     "upgrade": "^1.1.0"
   },
   "scripts": {
+    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
+},
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -39,5 +52,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "start": "node index.js",
+    "dev":"nodemon index.js --exec babel-node"
 }
