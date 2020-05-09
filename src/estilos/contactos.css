@@ -82,17 +82,17 @@
 	transform: rotateY(180deg);
 }
 .card1{
-	background-image: url(./../imagenes/Logo2.jpg);
+	background-image: url(./../imagenes/usu.png);
 	background-size: cover;
 }
 
 .card2{
-	background-image: url(http://1.1m.yt/dlxMf3R.jpg);
+	background-image: url(./../imagenes/usu.png);
 	background-size: cover;
 }
 
 .card3{
-	background-image: url(http://3.1m.yt/EUB_xE.jpg);
+	background-image: url(./../imagenes/usu.png);
 	background-size: cover;
 }
 

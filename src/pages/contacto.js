@@ -23,7 +23,15 @@ class contacto extends Component {
                             <div class="tarjeta">
                                 <div class="adelante card2"></div>
                                 <div class="atras">
-                                    <p>henry </p>
+                                    <p>Henry Jesus Guzman Arcos
+                                        Numero de cell:916-187-32-98  
+                                        correo:henrry_jesus@hotmail.com
+                                        ocupacion: Ing. en sistema computaciona, diseñador y creador de la pag wed.
+
+
+
+
+                                    </p>
                                 </div>
                             </div>
                         </div>
