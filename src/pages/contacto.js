@@ -24,7 +24,7 @@ class contacto extends Component {
                             <div class="tarjeta">
                                 <div class="adelante card2"></div>
                                 <div class="atras">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ex velit beatae. Illum, suscipit, aspernatur!</p>
+                                    <p>henry </p>
                                 </div>
                             </div>
                         </div>

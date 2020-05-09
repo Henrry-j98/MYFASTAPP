@@ -6,7 +6,7 @@ import Acecade from '../pages/acercade';
 import Pie from '../pages/pie';
 import Contato from '../pages/contacto';
 import Registro from '../pages/registro';
-
+import Oferta from '../pages/ofertas';
 
 
 
@@ -40,7 +40,7 @@ class header extends Component {
                                             Menu
         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <Link className="dropdown-item" href="#">Ofertas</Link>
+                                            <Link className="dropdown-item" href="/ofertas">Ofertas</Link>
                                             <a className="dropdown-item" href="/contacto">Contacto</a>
                                             <div className="dropdown-divider"></div>
                                             <a className="dropdown-item" href="/acercade">Acerca de..</a>
@@ -80,6 +80,7 @@ class header extends Component {
                         <Route path="/acercade" exact component={Acecade} />
                         <Route path="/contacto" exact component={Contato} />
                         <Route path="/registro" exact component={Registro} />
+                        <Route path="/ofertas" exact component={Registro} />
 
                     </Switch>
 
