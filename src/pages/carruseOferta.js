@@ -30,7 +30,7 @@ class carruseOferta extends Component {
     
 </head>
 <body>
-    <h2>las mejores ofertas </h2>
+    <h2>Las mejores ofertas </h2>
     <div className="content-all">
         <div className="content-carrousel">
             <figure><img src={ima1} class="" alt="..."/></figure>
