@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import CarruseOferta from './carruseOferta';
 import iman1 from './../imagenes/ofer/o1.jpg';
 import iman2 from './../imagenes/ofer/o2.jpg';
-
 import './../estilos/tarjetas.css';
 
 class ofertas extends Component {
