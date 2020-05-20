@@ -40,14 +40,14 @@ class header extends Component {
                                             Menu
         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <Link className="dropdown-item" href="/ofertas">Ofertas</Link>
+                                            <a className="dropdown-item" href="/ofertas">Ofertas</a>
                                             <a className="dropdown-item" href="/contacto">Contacto</a>
                                             <div className="dropdown-divider"></div>
                                             <a className="dropdown-item" href="/acercade">Acerca de..</a>
                                         </div>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Mas..</a>
+                                        <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">....</a>
                                     </li>
                                 </ul>
                                 <form className="form-inline my-2 my-lg-0">
@@ -59,7 +59,6 @@ class header extends Component {
 
 
                                     
-
 
 
 
@@ -80,7 +79,8 @@ class header extends Component {
                         <Route path="/acercade" exact component={Acecade} />
                         <Route path="/contacto" exact component={Contato} />
                         <Route path="/registro" exact component={Registro} />
-                        <Route path="/ofertas" exact component={Registro} />
+                        <Route path="/ofertas" exact component={Oferta} />
+
 
                     </Switch>
 

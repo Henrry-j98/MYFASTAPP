@@ -4,7 +4,7 @@ import Logo2 from '../imagenes/pie/twitter-2.png';
 import Logo3 from '../imagenes/pie/youtube-2.png';
 import Logot from '../imagenes/LOGO.png';
 import Logo from '../imagenes/LOGO2.png';
-import './../estilos/prueva.css';
+import './../estilos/pie.css';
 
 
 
