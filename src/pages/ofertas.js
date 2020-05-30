@@ -22,15 +22,15 @@ class ofertas extends Component {
                         <div className="card mb-3">
                             <img src={iman1} class="card-img-top" alt="/o1.jpg"></img>
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 className="card-title">LA MEJOR OFERTA</h5>
+                                <p className="card-text">compar tus comida faborita y de modo rapido .</p>
                                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>
                         <div className="card">
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 className="card-title">LO MAS BARATO</h5>
+                                <p className="card-text"> encuentras tus bevidas faboritas con un combo.</p>
                                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                             <img src={iman2} className="card-img-top" alt="/o2.jpg"></img>
